@@ -1,0 +1,43 @@
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .search-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    width: 100%;
+  }
+  
+  .input-group .form-control {
+    border-right: 0;
+  }
+  
+  .input-group .btn-outline-secondary {
+    border-left: 0;
+  }
+  
+  .table {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
